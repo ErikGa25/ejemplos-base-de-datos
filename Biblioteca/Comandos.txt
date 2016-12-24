@@ -1,0 +1,4 @@
+1.- mysql -h localhost -u root -p   (Conectar a la BD)
+2.- Source /home/carpeta/archivo.sql   (Importad la BD)
+3.- mysqldump -u Username -p Password -h Hostname User_Database > FileName.sql    (Exportar ls BD)
+4.- mysql -u Username -p Password -h Hostname User_Database < FileName.sql    (Importar la BD)
